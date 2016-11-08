@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  /*background-color: #23365c;*/
+  background-color: lightblue;
+
+
+}
+.jumbotron {
+  background-image: url("images/coder.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+	top:21px;
+	width:100%;
+	background-size:cover;
+	height: 300px;
+}
+.name{
+  color: lightblue;
+  float: right;
+}
+
+.container2{
+
+  margin-top: -7px;
+  padding: 0 0 0 15px;
+  height: 300px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-4{
+  flex: 0 0 33%;
+}

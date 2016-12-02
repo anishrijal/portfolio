@@ -70,3 +70,16 @@ body {
 .h2{
   font-size: 20px;
 }
+@media screen and (max-width: 519) {
+  .col-md-4{
+
+      width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 450px) {
+    .col-md-4 {
+        width: 50%;
+    }
+}

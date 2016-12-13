@@ -86,6 +86,7 @@ figure{
   width: 33%;
   height: 250px;
   text-align: center;
+  margin-bottom: 25px;
 }
 .para{
   margin-top: 60px;
@@ -109,32 +110,39 @@ figure{
         width: 50%;
     }
 }
-.rest, .note, .angNote, .Maerk, .chart{
+.rest, .note, .angNote, .Maerk, .chart, .chat{
   background-size:cover;
   height: 100%;
 }
 .rest{
-  background-image: url(images/restaurant.jpg);
+  background-image: url(images/blue.jpg);
 
 }
 .note{
-  background-image: url(images/notecopy.jpg);
+  background-image: url(images/yellow.jpg);
 }
 .angNote{
-  background-image: url(images/angular.jpg);
+  background-image: url(images/red.jpg);
 }
 .Maerk{
-  background-image: url(images/maerk.png);
+  background-image: url(images/black.jpg);
+  color: white;
 }
 .chart{
-  background-image: url(images/chart.jpg);
+  background-image: url(images/green.jpg);
+    /*color: white;*/
 }
-.show, .showw, .sho, .sh, .s{
-visibility: hidden;
+.chat{
+  background-image: url(images/gray.jpg);
+    /*color: white;*/
 }
-.rest:hover .show, .note:hover .showw, .angNote:hover .sho, .Maerk:hover .sh, .chart:hover .s{
+.show, .showw, .sho, .sh, .s, .showww{
+  padding: 10px;
+/*visibility: hidden;*/
+}
+.rest:hover .show, .note:hover .showw, .angNote:hover .sho, .Maerk:hover .sh, .chart:hover .s, .chat:hover .showww{
 visibility: visible;
-background-color: rgba(0, 0, 0, 0.7);
+background-color: rgba(0, 0, 0, 0.5);
 color: white;
 height: 100%;
 }
@@ -167,7 +175,8 @@ box-shadow:10px 10px 50px 10px #888888;
   margin: 20px 15% 0 15%;
   color: grey;
 }
-.resume{
+.btn-def{
+  padding-top: 20px;
   width: 200px;
   height: 60px;
   border-radius: 15px;
@@ -177,14 +186,15 @@ box-shadow:10px 10px 50px 10px #888888;
 .butt{
     margin: 8% 0 8% 37%;
 }
-.link{
+.btn-det{
+  padding-top: 20px;
   width: 200px;
   height: 60px;
   border-radius: 15px;
   background: white;
   border: 1px solid red;
 }
-.resume:hover, .link:hover{
+.btn-def:hover, .btn-det:hover{
   background-color: grey;
   border: none;
   color: black;

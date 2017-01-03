@@ -110,7 +110,7 @@ figure{
         width: 50%;
     }
 }
-.rest, .note, .angNote, .Maerk, .chart, .chat{
+.rest, .note, .angNote, .Maerk, .chart, .chat, .hack{
   background-size:cover;
   height: 100%;
 }
@@ -136,18 +136,22 @@ figure{
   background-image: url(images/gray.jpg);
     /*color: white;*/
 }
-.show, .showw, .sho, .sh, .s, .showww{
+.hack{
+  background-image: url(images/purple.jpeg);
+    /*color: white;*/
+}
+.show, .showw, .sho, .sh, .s, .showww, .show1{
   padding: 10px;
 /*visibility: hidden;*/
 }
-.rest:hover .show, .note:hover .showw, .angNote:hover .sho, .Maerk:hover .sh, .chart:hover .s, .chat:hover .showww{
+.rest:hover .show, .note:hover .showw, .angNote:hover .sho, .Maerk:hover .sh, .chart:hover .s, .chat:hover .showww, .hack:hover .show1{
 visibility: visible;
 background-color: rgba(0, 0, 0, 0.5);
 color: white;
 height: 100%;
 }
 .img-circle {
-margin-left: 43%;
+margin-left: 44%;
 margin-bottom: 40px;
 height: 200px;
 width: 200px;
@@ -184,7 +188,7 @@ box-shadow:10px 10px 50px 10px #888888;
   border: 1px solid blue;
 }
 .butt{
-    margin: 8% 0 8% 37%;
+    margin: 8% 0 8% 40%;
 }
 .btn-det{
   padding-top: 20px;
